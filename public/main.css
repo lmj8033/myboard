@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* font-family: 'Ubuntu', sans-serif; */
+
+
+/* NAV */
+.navbar {
+    font-family: 'Ubuntu'
+}
+
+.navbar-nav .nav-item::after {
+    position: absolute;
+    content: "|   ";
+    top: 1.7vh;
+}
+
+
+/* FIRST PAGE */
+.jumbotron {
+    /* position: absolute; */
+    margin-top: 10vh;
+    font-family: 'Ubuntu'
+}
+
+
+/* SIGN  UP PAGE */
+.sign_up {
+    position: absolute;
+    left: 75vh;
+    top: 20vh;
+    font-family: 'Ubuntu'
+}
+
+.form-control {
+    width: 40vh;
+    height: 5vh;
+    left: 10vh;
+}
+
+.btn_signup {
+    background-color: rgb(69, 194, 106);
+    color: white;
+    transition: 0.5s;
+}
+
+.btn_signup:hover {
+    color: black;
+}
+
+
+/* LOGIN PAGE */
+.login {
+    position: absolute;
+    left: 75vh;
+    top: 20vh;
+    font-family: 'Ubuntu'
+}
+
+.btn_login {
+    background-color: rgb(182, 183, 231);
+    color: white;
+    transition: 0.5s;
+}
+
+.btn_login:hover {
+    color: black;
+}
+
+
+/* Writing Page */
+.writing {
+    position: absolute;
+    left: 75vh;
+    top: 20vh;
+    font-family: 'Ubuntu'
+}
+
+.form-group-title {
+    position: absolute;
+    top: 13vh;
+    text-align: center;
+}
+.form-control-title {
+    width: 50vh;
+    top: 5vh;
+}
+
+.form-group-content {
+    position: absolute;
+    top: 22vh;
+    text-align: center;
+}
+
+.form-control-content {
+    width: 50vh;
+    height: 30vh;
+}
+
+.btn-submit {
+    position: absolute;
+    top: 59vh;
+    left: 20vh;
+    background-color: rgb(137, 137, 209);
+    color: white;
+    transition: 0.5s;
+    width: 14vh;
+    padding: 0.8vh;
+}
+
+.btn-submit:hover {
+    color: black;
+}
+
+
+/* MY PAGE */
+
+
+
+
+/* MAIN BOARD PAGE */
+.lists {
+    margin-top: 7vh;
+    font-family: 'Ubuntu'
+}
+
+.lists .list_word{
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.list-group-item {
+    text-align: center;
+}
+
+.lists h5 {
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+}
+
+.btn-edit {
+    background-color: rgb(218, 139, 152);
+    color: white;
+}
+
+.btn-edit:hover {
+    color: white;
+    background-color: rgb(219, 119, 135);
+}
+
+
+/* EDITING PAGE */
+.editing {
+    position: absolute;
+    left: 75vh;
+    top: 20vh;
+    font-family: 'Ubuntu'
+}
+
+.form-group-edittitle {
+    position: absolute;
+    top: 13vh;
+    text-align: center;
+}
+.form-control-edittitle {
+    width: 50vh;
+    top: 5vh;
+}
+
+.form-group-editcontent {
+    position: absolute;
+    top: 22vh;
+    text-align: center;
+}
+
+.form-control-editcontent {
+    width: 50vh;
+    height: 30vh;
+}
+
+.btn-edit2 {
+    position: absolute;
+    top: 59vh;
+    left: 20vh;
+    background-color: rgb(137, 137, 209);
+    color: white;
+    transition: 0.5s;
+    width: 14vh;
+    padding: 0.8vh;
+}
+
+.btn-edit2:hover {
+    color: black;
+}
+
+
+/* DETAIL PAGE */
+.detail {
+    font-family: 'Ubuntu'
+}
+.detail h4 {
+    margin-top: 7vh;
+}
+
+.detail .card {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.detail h1 {
+    padding: 1vh 0 1vh 0;
+}
+
+.detail h3 {
+    padding: 1vh 0 5vh 0;
+    color: black;
+}
+
+.detail a {
+    background-color: rgb(218, 139, 152);
+    padding: 0.8vh 1.5vh;
+    color: white;
+    border-radius: 3px;
+}
+
+.detail a:hover {
+    color: white;
+    background-color: rgb(219, 119, 135);
+}
